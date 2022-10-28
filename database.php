@@ -3,10 +3,10 @@
 $host = "localhost";
 $username = "root";
 $password = "";
-$db_name = "webpro";
+$dbname = "webprodb1";
  
 try {
-    $con = new PDO("mysql:host={$host};dbname={$db_name}", $username, $password);
+    $con = new PDO("mysql:host={$host};dbname={$dbname}", $username, $password);
     // echo "connect successfully";
 }
  
